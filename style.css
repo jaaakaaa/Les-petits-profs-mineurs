@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid:400,700');
 @import url('https://fonts.googleapis.com/css?family=Kalam:400,700');
 
+
 body {
   background-color: white;
-  font-family: "Londrina Solid", sans-serif;
+  font-family: "Kalam", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
@@ -12,11 +13,9 @@ body {
 
 #splash{
   text-align:center;
-  font-family:"Londrina Solid", sans-serif;
   position:relative;
   top:25%;
   color:white;
-
   text-shadow: 1px 2px 15px rgba(0, 0, 0, 0.35);
 }
 
@@ -133,17 +132,17 @@ button {
   box-shadow: inset 0 0 3px 2px #5C6670;
 }
 #content::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.3);
-    background-color: #3b3b3b;
-    box-shadow: 0 0 1px 0px #000000, inset 0 0px rgba(0,0,0,0.3);
-  }
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,.3);
+  background-color: #3b3b3b;
+  box-shadow: 0 0 1px 0px #000000, inset 0 0px rgba(0,0,0,0.3);
+}
 
 #content:-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5;
-  }
+  -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
 
 
 .categorybox{
@@ -303,32 +302,107 @@ img[src="forward.png"]{
 }
 
 
-#menu a {
-  color:white;
-  text-decoration: none;
+nav{
+  font-family: 'Londrina Solid', sans-serif;
+  width: 100%;
+  background-color: #2e2e31;
+  border-radius: 10px
+}
+nav > ul{
+  margin: 0px;
+  padding: 0px;
 }
 
-#menu a:hover {
-  color:#1d1391;
+nav > ul::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 
-#submenu {
-  display: none
+nav li{
+  list-style-type: none;
 }
-
-#menu{
-  background: black;
-  float:left;
-  width: auto;
-  overflow-wrap: break-word;
-  border-radius: 10px;
-  margin-right:20px;
-}
-
-nav > li {
+nav > ul > li{
+  float: left;
   position: relative;
 }
+nav a{
+  display: inline-block;
+  text-decoration: none;
+}
+nav > ul > li > a{
+  padding: 20px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.submenu{
+  display: none;
+}
 
-#menu:hover #submenu {
-  display: block
+nav li:hover .submenu{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 100000;
+}
+.submenu li{
+  border-bottom : 1px solid #CCC;
+}
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 13px;
+  color:#ffffff;
+  width: 270px;
+}
+nav > ul > li:hover a{
+  padding: 15px 20px 20px 20px;
+}
+.menu-matiere:hover{
+  border-top: 5px solid #b46b2d;
+  background-color: #64320f;
+}
+.menu-lumiere:hover{
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-energie:hover{
+  border-top: 5px solid rgb(185, 5, 5);
+  background-color: rgba(159, 87, 87, 0.15);
+}
+.menu-SVT:hover{
+  border-top: 5px solid rgb(5, 163, 35);
+  background-color: rgba(3, 77, 9, 0.55);
+}
+.menu-univers:hover{
+  border-top: 5px solid #BBB;
+  background-color: rgb(10, 1, 41);
+}
+
+
+.submenu li:hover a{
+  color:#EEE;
+  font-weight: bold;
+}
+.menu-matiere .submenu{
+  background-color: #b46b2d;
+}
+
+.menu-lumiere .submenu{
+  background-color: rgb(181, 175, 20);
+}
+
+.menu-energie .submenu{
+  background-color: rgb(185, 5, 5);
+}
+
+.menu-SVT .submenu{
+  background-color: rgb(5, 163, 35);
+}
+
+.menu-univers .submenu{
+  background-color: RGB(95, 120, 170);
 }
