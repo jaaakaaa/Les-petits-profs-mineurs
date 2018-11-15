@@ -1,1 +1,87 @@
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
+  <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
+  <meta charset="utf-8">
+  </head>
+  
+  <body style="background: grey;">
+    <div id="header">
+        <a id="ra" href="/Les-petits-profs-mineurs/index.html">Accueil</a>
+        <a id="rb" href="/Les-petits-profs-mineurs/cb.html">Membres</a>
+        <a id="rc" href="/Les-petits-profs-mineurs/cc.html">Contact</a>
+        <a id="rd" href="/Les-petits-profs-mineurs/cd.html">A propos</a>
+    </div>
+      
+  <nav>
+        <ul>
+          <li class="menu-matiere"><a href="Matiere/menuMatiere.html">La Matière</a>
+            <ul class="submenu">
+              <li><a href="Matiere/partieun.html">Les états de la matière</a></li>
+              <li><a href="Matiere/partiedeux.html">Changements d'état</a></li>
+              <li><a href="Matiere/partietrois.html">Mélanges de liquides</a></li>
+              <li><a href="Matiere/partiequatre.html">Précipitation et dissolution</a></li>
+            </ul>
+          </li>
+          <li class="menu-lumiere"><a href="Lumiere/menuLumiere.html">L'Optique</a>
+            <ul class="submenu">
+              <li><a href="Lumiere/partieun.html">La propagration de la lumière</a></li>
+              <li><a href="Lumiere/partiedeux.html">La composition des couleurs</a></li>
+              <li><a href="Lumiere/partietrois.html">Illusions d'optiques</a></li>
+              <li><a href="Lumiere/partiequatre.html">la perception des images</a></li>
+            </ul>
+          </li>
+          <li class="menu-energie"><a href="Energie/menuEnergie.html">L'énergie</a>
+            <ul class="submenu">
+              <li><a href="Lumiere/partiedeux.html">(idée) qu'est-ce que l'énergie ?</a></li>
+              <li><a href="Lumiere/partieun.html">Sources d'énergie</a></li>
+            </ul>
+          </li>
+          <li class="menu-SVT"><a href="SVT/menuSVT.html">SVT</a>
+            <ul class="submenu">
+              <li><a href="SVT/partieun.html">La biodiversité</a></li>
+              <li><a href="SVT/partiedeux.html">Le fonctionnement du vivant : Les animaux</a></li>
+              <li><a href="SVT/partietrois.html">Les roches</a></li>
+            </ul>
+          </li>
+          <li class="menu-univers"><a href="Univers/menuUnivers.html">Vers l'Infini et au delà</a>
+            <ul class="submenu">
+              <li><a href="Univers/partieun.html">Voyage dans l'Univers</a></li>
+              <li><a href="Univers/partiedeux.html">Le Système solaire</a></li>
+              <li><a href="Univer/partietrois.html">La vitesse de la lumière</a></li>
+              <li><a href="Univer/partiequatre.html">Questions pour un astronaute</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
 
+      <div id="content" style="top: 0px; background: url(&quot;opt.jpg&quot;) 0% 0% / cover white;">
+        <div id="optique-side">
+         <h1 style="color:darkred">Optique</h1>
+         <br>
+         <p><mark>Salut! Je suis Professeur Descartes et je viens t'expliquer les merveilles de l'optique. Clique sur les boutons ci-dessous, ils te conduiront directement sur <span class="bold">les différentes planètes</span> de ce monde. </mark>
+         </p>
+       </div>
+        
+
+        <!-- crée un menu -->
+        <div id="optique-menu"> 
+          <div onclick="create_nested_content('Benoit/partieun.html')">
+           La propagation de la lumière
+           <img src="forward.png" width="20" height="20">
+          </div>
+          <div onclick="create_nested_content('Benoit/partiedeux.html')">
+          La composition des couleurs
+          <img src="forward.png" width="20" height="20">
+          </div>
+          <div onclick="create_nested_content('Benoit/partietrois.html')">
+          Illusions d'optiques
+          <img src="forward.png" width="20" height="20">
+          </div>
+          <div onclick="create_nested_content('Benoit/partiequatre.html')">
+          La perception des images
+          <img src="forward.png" width="20" height="20">
+          </div>
+        </div>   
+  </body>
+</html>
