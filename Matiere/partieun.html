@@ -1,63 +1,60 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700,900" rel="stylesheet">
-    <script type="application/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script type="application/javascript" src="/main.js"></script>
     <meta charset="utf-8">
   </head>
+  
   <body style="background: grey;">
+    
     <div id="header">
-      <a id="ra" href="index.html">Accueil</a>
-      <a id="rb" href="cb.html">Membres</a>
-      <a id="rc" href="cc.html">Contact</a>
-      <a id="rd" href="cd.html">A propos</a>
+      <a id="ra" href="/index.html">Accueil</a>
+      <a id="rb" href="/cb.html">Membres</a>
+      <a id="rc" href="/cc.html">Contact</a>
+      <a id="rd" href="/cd.html">A propos</a>
     </div>
 
-    <div id="menu" style=" background: black; float:left; width: 25%; height: auto; overflow-wrap: break-word; border-radius: 10px; margin-right:5%; margin-bottom:3%;">
-      <center style="margin:10px; color:white;"><strong>MENU</strong></center>
-      <li style=" margin:20px; color:white; list-style-type: none;"><strong>La Matière</strong>
-        <div id="submenu" style="margin:20px">
-          <a href="matiere.html">Les états de la matière
-          </a>
-          <br>
-          <a href="partiedeux.html">Changements d'état
-          </a>
-          <br>
-          <a href="partietrois.html">Mélanges de liquides
-          </a>
-          <br>
-          <a href="partiequatre.html">Précipitation et dissolution
-          </a>
-        </div>
-      </li>
-      <li style=" margin:20px; color:white; list-style-type: none;"><strong>La Lumiere</strong>
-        <div id="submenu" style="margin:20px">
-          <a href="oups.html">...
-          </a>
-          <br>
-          <a href="salut.html">...
-          </a>
-          <br>
-          <a href="azaeaze.html">..
-          </a>
-          <br>
-          <a href="nop.html">...
-          </a>
-        </div>
-      </li>
-      <li style=" margin:20px; color:white; list-style-type: none;"><strong>(...)</strong>
-        <div id="submenu" style="margin:20px">
-          <a href="1.html">1
-          </a>
-          <br>
-          <a href="2.html">2
-          </a>
-          <br>
-          <a href="partietrois.html">3
-            </a>
-        </div>
-      </li>
-    </div>
+    <nav> <! attention aux href>
+      <ul>
+        <li class="menu-matiere"><a href="/Matiere/menuMatiere.html">La Matière</a>
+          <ul class="submenu">
+            <li><a href="/Matiere/partieun.html">Les états de la matière</a></li>
+            <li><a href="/Matiere/partiedeux.html">Changements d'état</a></li>
+            <li><a href="/Matiere/partietrois.html">Mélanges de liquides</a></li>
+            <li><a href="/Matiere/partiequatre.html">Précipitation et dissolution</a></li>
+          </ul>
+        </li>
+        <li class="menu-lumiere"><a href="/Lumiere/menuLumiere.html">L'Optique</a>
+          <ul class="submenu">
+            <li><a href="/Lumiere/partieun.html">La propagration de la lumière</a></li>
+            <li><a href="/Lumiere/partiedeux.html">La composition des couleurs</a></li>
+            <li><a href="/Lumiere/partietrois.html">Illusions d'optiques</a></li>
+            <li><a href="/Lumiere/partiequatre.html">la perception des images</a></li>
+          </ul>
+        </li>
+        <li class="menu-energie"><a href="/Energie/menuEnergie.html">L'énergie</a>
+          <ul class="submenu">
+            <li><a href="/Lumiere/partiedeux.html">(idée) qu'est-ce que l'énergie ?</a></li>
+            <li><a href="/Lumiere/partieun.html">Sources d'énergie</a></li>
+          </ul>
+        </li>
+        <li class="menu-SVT"><a href="/SVT/menuSVT.html">SVT</a>
+          <ul class="submenu">
+            <li><a href="/SVT/partieun.html">La biodiversité</a></li>
+            <li><a href="/SVT/partiedeux.html">Le fonctionnement du vivant : Les animaux</a></li>
+            <li><a href="/SVT/partietrois.html">Les roches</a></li>
+          </ul>
+        </li>
+        <li class="menu-univers"><a href="/Univers/menuUnivers.html">Vers l'Infini et au delà</a>
+          <ul class="submenu">
+            <li><a href="/Univers/partieun.html">Voyage dans l'Univers</a></li>
+            <li><a href="/Univers/partiedeux.html">Le Système solaire</a></li>
+            <li><a href="/Univer/partietrois.html">La vitesse de la lumière</a></li>
+            <li><a href="/Univer/partiequatre.html">Questions pour un astronaute</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word;">
       <br>
@@ -110,13 +107,13 @@ Mettre à jour votre navigateur
         </div>
 
         <div align="center"> 	
-          <img width=30% src="Images/molécule1.png" alt='molécule1'>
-          <img width=30% src="Images/molécule2.png" alt='molécule2'> 
-          <img width=30% src="Images/molécule3.png" alt='molécule3'>
+          <img width=30% src="/Images/molécule1.png" alt='molécule1'>
+          <img width=30% src="/Images/molécule2.png" alt='molécule2'> 
+          <img width=30% src="/Images/molécule3.png" alt='molécule3'>
         </div>
 
         <!--  va chercher et execute le fichier test.js -->
-        <script type="text/javascript" src='js/test.js'> </script>
+        <script type="text/javascript" src='/js/test.js'> </script>
         <h4 id="test_status"> </h4>
         <div id='test' align="center"> </div>
 
