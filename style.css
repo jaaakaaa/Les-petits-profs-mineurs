@@ -250,11 +250,9 @@ iframe{
 }
 
 #optique-menu,#matiere-menu,#svt-menu,#energie-menu,#astronomie-menu{
-  display: inline-block;
-  position: absolute;
-  top:120px;
-  right:20px;
+  float: right;
 }
+
 
 #optique-menu div,#matiere-menu div,#svt-menu div,#energie-menu div,#astronomie-menu div{
   color:white;
