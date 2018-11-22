@@ -1,7 +1,8 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
+    <script type="application/javascript" src="/Les-petits-profs-mineurs/test.js"></script>
+    <script src="/Les-petits-profs-mineurs/scripts/scriptquizztest.js"></script>
     <meta charset="utf-8">
   </head>
   
@@ -108,23 +109,39 @@ Mettre à jour votre navigateur
           <img width=30% src="/Les-petits-profs-mineurs/Images/molécule2.png" alt='molécule2'> 
           <img width=30% src="/Les-petits-profs-mineurs/Images/molécule3.png" alt='molécule3'>
         </div>
+      
+<div align="center"> 	
+			<img src="Images/molécule1.png" alt="molécule1">
+			<img src="Images/molécule2.png" alt="molécule2"> 
+			<img src="Images/molécule3.png" alt="molécule3">
+		</div>
 
-        <!--  va chercher et execute le fichier test.js -->
-        <script type="text/javascript" src='/js/test.js'> </script>
-        <h4 id="test_status"> </h4>
-        <div id='test' align="center"> </div>
+		<!--  va chercher et execute le fichier test.js -->
+		<script type="text/javascript" src="/Les-petits-profs-mineurs/js/test.js"> </script>
+		<h4 id="test_status"><h3> Question 1 sur 3</h3></h4>
+		<div id="test" align="center"><h2>Quelle image correspond à l'état gazeux?</h2><input type="radio" name="choixs" value="A">Image bleue<br><input type="radio" name="choixs" value="B">Image rose<br><input type="radio" name="choixs" value="C">Image verte<br><br><button onclick="checkAnswer()"> Valider la réponse </button></div>
 
-        <!-- saute des lignes -->
-        <!-- insérer une vidéo
-<video src="audios/lorient.mp4" controls> Mettre à jour votre navigateur </video> -->
+		<!-- saute des lignes -->
+	  	<br>
 
+		<!-- insérer une vidéo
+		<video src="audios/lorient.mp4" controls> Mettre à jour votre navigateur </video> -->
 
-
-
-      </div>
-
-
-      <br>    
+ <h1>Quelle est la vitesse maximal à laquelle court un guépard ?</h1>
+    
+    <hr align="center" width="50%" color="grey" size="5"> 
+    
+    <div style="text-align:center;">
+      <button id="reponse1" onclick="Solve1()">15 km/h</button>
+    </div>
+    <div style="text-align:center;">
+      <button id="reponse2" onclick="Solve1()">55 km/h</button>
+    </div>
+    <div style="text-align:center;">
+      <button id="reponse3" onclick="Solve2()">120 km/h</button>
+    </div>
+    <div id="score"></div>
+    
     </div>
   </body>
 </html>
