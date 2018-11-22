@@ -300,6 +300,18 @@ img[src="forward.png"]{
   right: 10px;
 }
 
+
+#quizzG button {
+  margin:20px;
+  border: 7px solid #363535 ;
+  font-size: 24px;
+  width: 200px;
+  height: 100px;
+  font-family: "Kalam";
+  border-radius: 75px;
+}
+
+
 nav{
   text-align:center;
   font-family: 'Londrina Solid', sans-serif;
