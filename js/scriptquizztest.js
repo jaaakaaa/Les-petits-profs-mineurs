@@ -4,7 +4,7 @@ function Solve1() {
   document.getElementById("reponse3").style.background='green';
   document.getElementById("reponse2").style.background='red'; 
   document.getElementById("reponse1").style.background='red';
-  document.getElementById('score').innerHTML = score
+  document.getElementById('score').innerHTML = "Score : " + score
 }
 
 function Solve2() {
@@ -12,5 +12,5 @@ function Solve2() {
   document.getElementById("reponse2").style.background='red'; 
   document.getElementById("reponse1").style.background='red';
   score = score + 1
-  document.getElementById('score').innerHTML = "Ton score est de " + score
+  document.getElementById('score').innerHTML = "Score : " + score
 }
