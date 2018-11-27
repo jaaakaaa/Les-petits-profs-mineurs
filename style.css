@@ -394,7 +394,10 @@ nav > ul > li:hover a{
   border-top: 5px solid #BBB;
   background-color: rgb(10, 1, 41);
 }
-
+.menu-experience:hover{
+  border-top: 5px solid #09a0b4;
+  background-color: rgb(1, 41, 39);
+}
 
 .submenu li:hover a{
   color:#EEE;
@@ -418,4 +421,8 @@ nav > ul > li:hover a{
 
 .menu-univers .submenu{
   background-color: RGB(95, 120, 170);
+}
+
+.menu-experience .submenu{
+  background-color:#09a0b4
 }
