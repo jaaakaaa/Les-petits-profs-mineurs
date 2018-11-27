@@ -305,7 +305,7 @@ img[src="forward.png"]{
 }
 
 
-#quizzG button {
+button #quizzG{
   margin:20px;
   border: 7px solid #363535 ;
   font-size: 24px;
