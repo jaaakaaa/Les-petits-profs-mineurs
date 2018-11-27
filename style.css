@@ -11,6 +11,10 @@ body {
   color: #444;
 }
 
+h1 {
+margin-block-start: 0px;
+}
+
 #splash{
   text-align:center;
   position:relative;
