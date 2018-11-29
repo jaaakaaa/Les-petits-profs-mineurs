@@ -11,9 +11,67 @@ body {
   color: #444;
 }
 
-h1 {
-margin-block-start: 0px;
+/* TITRES */
+
+h1 { /* Titre principal */
+	/* police et police de secours */
+	font-family: "Kalam",sans-serif;
+	text-align: center;
+	color:#2196F3;
+	font-variant: small-caps; 
+	margin: auto;
+	width: 800px;
+	font-size: 55px;
+	text-shadow: 1px 3px 3px ;
 }
+
+h2 { /* Titres secondaires */
+	font-family: "Kalam",sans-serif;
+	color:#2196F3;
+}
+
+/* TEXTE */
+
+div#texte {
+    
+    font-family: "Source Sans Pro",sans-serif;
+    padding: 10px 40px 40px 40px;
+}
+
+
+
+
+div#test {
+	
+	font-family: "Source Sans Pro",sans-serif;
+	padding: 10px 40px 40px 40px;
+}
+
+div#intro {
+
+	font-family: "Source Sans Pro",sans-serif;
+	padding: 10px 40px 40px 40px;
+}
+
+div#definitions {
+
+	font-family: "Source Sans Pro",sans-serif;
+	padding: 10px 40px 40px 40px;
+}
+
+div#moleculaire {
+
+	font-family: "Source Sans Pro",sans-serif;
+	padding: 10px 40px 40px 40px;
+}
+
+div#quizz {
+
+	font-family: "Source Sans Pro",sans-serif;
+	padding: 10px 40px 40px 40px;
+}
+
+
 
 #splash{
   text-align:center;
