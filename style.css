@@ -26,7 +26,7 @@ h1 { /* Titre principal */
 
 h2 { /* Titres secondaires */
 	font-family: "Kalam",sans-serif;
-	font-size: 40px;
+	font-size: 55px;
 }
 
 /* TEXTE */
@@ -34,7 +34,7 @@ h2 { /* Titres secondaires */
 div#texte {
 	font-family: "Source Sans Pro",sans-serif;
 	padding: 10px 40px 40px 40px;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 
