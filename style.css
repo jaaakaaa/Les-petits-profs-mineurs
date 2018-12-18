@@ -492,3 +492,11 @@ nav > ul > li:hover a{
 .menu-experience .submenu{
   background-color:#09a0b4
 }
+
+.spoiler {
+	display:none;
+}
+.spoiler:hover{
+	display:block;
+}
+	
