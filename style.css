@@ -171,11 +171,8 @@ div#quizz {
   border-top:5px solid white;
 }
 
-button {
-  border: 7px solid #363535 ;
-  font-size: 24px;
-  width: 200px;
-  height: 100px;
+#button {
+  border: 3px solid #363535 ;
   border-radius: 75px;
 }
 
