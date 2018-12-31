@@ -171,7 +171,7 @@ div#quizz {
   border-top:5px solid white;
 }
 
-#buttonquizz {
+.buttonquizz {
   border: 3px solid #363535 ;
   border-radius: 50px;
   margin : 10px;
@@ -181,7 +181,7 @@ div#quizz {
   font-family: 'Londrina Solid', sans-serif;
 }
 
-#buttonquizz:hover {
+.buttonquizz:hover {
   background-color: #2e2e31;
   color : white
 
