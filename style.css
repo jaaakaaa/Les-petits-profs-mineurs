@@ -329,7 +329,7 @@ iframe{
 }
 
 
-#optique-menu div,#matiere-menu div,#svt-menu div,#energie-menu div,#astronomie-menu div{
+#optique-menu button,#matiere-menu button,#svt-menu button,#energie-menu button,#astronomie-menu button{
   color:white;
   transition:all 0.5s ease;
   width:300px;
@@ -337,34 +337,33 @@ iframe{
   padding:10px;
   text-align:center;
   cursor:pointer;
-  position:relative;
-  bottom:0px;
-  box-shadow:0px 0px 0px transparent;
-  text-decoration
+  font-family: kalam;
+  font-size: 20
 }
 
-#optique-menu div{
+#optique-menu button{
   background:crimson;
 }
 
-#matiere-menu div{
+#matiere-menu button{
   background:#dc14b6;
+  display : block;
 }
 
-#svt-menu div{
+#svt-menu button{
   background:#5a9cac;
 }
 
-#energie-menu div{
+#energie-menu button{
   background:#d8d810;
 }
 
-#astronomie-menu div{
+#astronomie-menu button{
   background:#1f5eeb;
 }
 
 
-#optique-menu div:hover,#matiere-menu div:hover,#svt-menu div:hover,#energie-menu div:hover,#astronomie-menu div:hover{
+#optique-menu button:hover,#matiere-menu button:hover,#svt-menu button:hover,#energie-menu button:hover,#astronomie-menu button:hover{
   bottom:2px;
   box-shadow:2px 2px 10px rgba(0, 0, 0, 0.55);
 }
