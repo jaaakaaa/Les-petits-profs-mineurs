@@ -198,6 +198,7 @@ function body_resize_handler() {
 function init() {
     canvas = document[_0x4a15('0x2a')]('#display');
     ctx = canvas[_0x4a15('0x30')]('2d');
+    document[_0x4a15('0x2a')](_0x4a15('0x31'))[_0x4a15('0x32')] = hideContent;
     document[_0x4a15('0x27')][_0x4a15('0x33')] = body_resize_handler;
     body_resize_handler();
     var _0x26aaf1 = document[_0x4a15('0x34')](_0x4a15('0x35'));
