@@ -1,4 +1,5 @@
-<html><head>
+<html>
+        <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700,900" rel="stylesheet">
         <script type="application/javascript" src="main.js"></script>
@@ -8,23 +9,119 @@
             window.onload = init;
             
         </script>
-    </head>
-    <body>
-        <canvas id="display" width=auto height=auto></canvas>
-        
-        <div id="glo-content">
-            <div id="header">
-      <a id="ra" href="index.html">Accueil</a>
-      <a id="rb" href="cb.html">Membres</a>
-      <a id="rc" href="cc.html">Contact</a>
-      <a id="rd" href="cd.html">A propos</a>
-    </div>
-            <div id="splash">
-      <div id="title">Les petits professeurs
-      </div>
-      Dans le cadre des projets scientifiques de Mines Nancy,<br> huit élèves en première année du cursus<br>d'ingénieur civil des Mines s'intéressent à la création d'un site internet afin de vulgariser les sciences pour les élèves de CM1/CM2<br><br><br>
-
-      <a href="menu.html"><button id="button">CM1 / CM2</button></a>
-    </div>
-    
-</body></html>
+    </head>	   
+     <body>	    
+             <canvas id="display" width="auto" height="auto"></canvas>
+         <div id="overlay">	 
+              <div id="ov-box" style="left: 533px; top: -25px;">	
+                 ov box default	
+             </div>	
+             <div id="login">	
+                 <h3>login</h3>	
+                 <br>	
+                 <span id="error" style="color:red"></span>	
+                 <form action="javascript:login_handler()">	
+                     <table>	
+                         <tbody><tr>	
+                             <td><label for="uname">username: </label></td>	
+                             <td><input type="text" id="uname" name="uname"></td>	
+                         </tr>	
+                         <tr>	
+                             <td><label for="pass">password: </label></td>	
+                             <td><input type="password" id="pass" name="pass"></td>	
+                         </tr>	
+                     </tbody></table>	
+                     <br>	
+                     <input type="submit" value="log in"><br>	
+                 </form>	
+                 <a href="javascript:load_signup()">don't have an account</a>	
+             </div>	
+             <div id="signup">	
+                 <h3>signup</h3>	
+                 <br>	
+                 <span id="error" style="color:red"></span>	
+                 <form action="javascript:signup_handler()">	
+                     <table>	
+                         <tbody><tr>	
+                             <td><label for="uname-s">username: </label></td>	
+                             <td><input type="text" id="uname-s" name="uname-s"></td>	
+                         </tr>	
+                         <tr>	
+                             <td><label for="pass-s">password: </label></td>	
+                             <td><input type="password" id="pass-s" name="pass-s"></td>	
+                         </tr>	
+                         <tr>	
+                             <td><label for="spass">confirm password: </label></td>	
+                             <td><input type="password" id="spass" name="spass"></td>	
+                         </tr>	
+                         <tr>	
+                             <td><label for="mail">email: </label></td>	
+                             <td><input type="text" id="mail" name="mail"></td>	
+                         </tr>	
+                     </tbody></table>	
+                     <br>	
+                     <input type="submit" value="signup">	
+                 </form>	
+             </div>	
+             <div id="login-wait">	
+                 <h2>logging in</h2>	
+             </div>	
+             <div id="signup-wait">	
+                 <h2>signing up</h2>	
+             </div>	
+         </div>	
+         <div id="login-area">	
+             log in	
+         </div>	
+         <div id="glo-content">	         
+             <div id="header">	             
+                    <a id="ra" href="index.html">Accueil</a>
+                  <a id="rb" href="cb.html">Membres</a>
+                    <a id="rc" href="cc.html">Contact</a>
+                   <a id="rd" href="cd.html">A propos</a>
+             </div>	
+             <div id="splash">	
+                 <div id="title">Les petits professeurs</div>	
+                 Dans le cadre des projets scientifiques de Mines Nancy,<br> huit élèves en première année du cursus<br>d'ingénieur civil des Mines s'intéressent à la création d'un site internet afin de vulgariser les sciences pour les élèves de CM1/CM2<br>	
+ 
+  
+                  <span class="opbtn" onclick="setPage('#cma')">CM1 / CM2</span>   	
+                 <span class="opbtn" onclick="setPage('#psm')">Sainte-Marie</span>	
+             </div>	
+             <div id="content" style="top: 110%;">	
+ 
+              </div>	
+             <img id="mines-logo" width="120" src="mines_logo.png">	
+         </div>	
+         <div id="everything" style="display:none">	
+             <div id="ca">	
+                 <span class="categorybox" onclick="setPage('#cma')">	
+                     <img width="250" height="200" src="cm.jpg">	
+                     <span class="weirdtitle">CM1 / CM2</span>	
+                 </span>	
+                 <span class="categorybox" onclick="setPage('#psm')">	
+                     <img width="250" height="200" src="sm.jpg">	
+                     <span class="weirdtitle">Sainte-marie</span>	
+                 </span>	
+             </div>	
+            
+            
+             <div id="psm">	
+                 <span class="categorybox" onclick="setPage('#faune')">	
+                     <img width="250" height="200" src="faune.jpg">	
+                     <span class="weirdtitle">Faune</span>	
+                 </span>	
+                 <span class="categorybox" onclick="setPage('#flore')">	
+                     <img width="250" height="200" src="flore.jpg">	
+                     <span class="weirdtitle">Flore</span>	
+                 </span>	
+                 <span class="categorybox" onclick="setPage('#quiz')">	
+                     <img width="250" height="200" src="quiz.jpg">	
+                     <span class="weirdtitle">Quiz</span>	
+                 </span>	
+             </div>	
+            
+         </div>	
+ 
+  
+  </body></html>
