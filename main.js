@@ -201,15 +201,12 @@ function init() {
     var _0x26aaf1 = document[_0x4a15('0x34')](_0x4a15('0x35'));
     _0x26aaf1[0x0][_0x4a15('0x32')] = btna;
     _0x26aaf1[0x1]['onclick'] = btnb;
-    document['querySelector']('#overlay')[_0x4a15('0x32')] = function(_0x2a45b6) {
-        document[_0x4a15('0x2a')](_0x4a15('0x36'))[_0x4a15('0x2c')]['display'] = _0x4a15('0x37');
-    }
+   
     ;
     document[_0x4a15('0x2a')](_0x4a15('0x2d'))[_0x4a15('0x32')] = function(_0x3f9a5a) {
         _0x3f9a5a['stopPropagation']();
     }
     ;
-    login_area = document[_0x4a15('0x2a')](_0x4a15('0x38'));
     window['onpopstate'] = getCurrentPage;
     getCurrentPage();
     coreLoop();
