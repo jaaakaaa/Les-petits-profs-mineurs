@@ -82,6 +82,7 @@ div#quizz {
 #splash{
   text-align:center;
   position:relative;
+  top:25%;
   color:white;
   text-shadow: 1px 2px 15px rgba(0, 0, 0, 0.35);
 }
@@ -144,8 +145,6 @@ div#quizz {
   background:transparent;
 }
 
-
-
 #header a:hover{
   background:rgba(255, 255, 255, 0.2);
   padding-top:15px;
@@ -166,7 +165,6 @@ div#quizz {
    background-color: #2e2e31;	
    color : white;	
  }	
- 
 
 #content{
   background: black;
@@ -318,27 +316,44 @@ iframe{
   position:relative;
   bottom:0px;
   box-shadow:0px 0px 0px transparent;
-  text-decoration
+  font-family: kalam;
+  font-size: 20
 }
 
 #optique-menu button{
   background:crimson;
+  display : block;
+  border-radius: 15px;
 }
 
 #matiere-menu button{
   background:#dc14b6;
+  display : block;
+  border-radius: 15px;
 }
 
 #svt-menu button{
   background:#5a9cac;
+  display : block;
+  border-radius: 15px;
 }
 
 #energie-menu button{
   background:#d8d810;
+  display : block;
+  border-radius: 15px;
 }
 
 #astronomie-menu button{
   background:#1f5eeb;
+  display : block;
+  border-radius: 15px;
+}
+
+#experience-menu button{
+  background:#0e7a6b;
+  display : block;
+  border-radius: 15px;
 }
 
 
