@@ -214,7 +214,6 @@ function init() {
     login_area = document[_0x4a15('0x2a')](_0x4a15('0x38'));
     window['onpopstate'] = getCurrentPage;
     getCurrentPage();
-    isLogged();
     coreLoop();
 }
 function coreLoop() {
