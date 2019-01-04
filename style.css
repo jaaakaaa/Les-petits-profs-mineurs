@@ -351,7 +351,7 @@ iframe{
 }
 
 
-#optique-menu button:hover,#matiere-menu button:hover,#svt-menu button:hover,#energie-menu button:hover,#astronomie-menu button:hover{
+#optique-menu button:hover,#matiere-menu button:hover,#svt-menu button:hover,#energie-menu button:hover,#astronomie-menu button:hover,#experience-menu button:hover{
   bottom:2px;
   box-shadow:2px 2px 10px rgba(0, 0, 0, 0.55);
 }
