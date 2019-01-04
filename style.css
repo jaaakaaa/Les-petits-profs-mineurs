@@ -3,9 +3,8 @@
 
 
 body {
-  background-color: white;
+  background-color: red;
   font-family: "Kalam", sans-serif;
-  padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
@@ -126,7 +125,7 @@ div#quizz {
   color:white;
   text-align:center;
   background:rgba(0,0,0,0.8);
-  margin: 10px;
+  margin: 20px;
   border-radius:15px;
   box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
   z-index:9999;
