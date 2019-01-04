@@ -164,18 +164,10 @@ div#quizz {
    background-color: #2e2e31;	
    color : white;	
  }	
-
+    
 #content{
-  background: black;
-  height: 100%;
-  position: fixed;
-  left: 2%;
-  right: 2%;
   box-shadow: 0px 0px 35px rgba(0,0,0,0.8);
-  z-index: 25;
-  transition:top 0.4s ease;
-  overflow-y: auto;
-  border-radius: 15px;
+  margin: 30px;
 }
 
 #content::-webkit-scrollbar {
