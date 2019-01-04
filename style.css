@@ -8,6 +8,7 @@ body {
   font-size: 18px;
   margin: 0;
   color: #444;
+  transition: background-color 3s linear;
 }
 
 /* TITRES */
