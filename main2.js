@@ -8,7 +8,7 @@ jQuery(function ($) {
                     var curCol = 0,
                         timer = setInterval(function () {
                             if (curCol === colors.length) curCol = 0;
-                            $(selector).css("body > background-color", colors[curCol]);
+                            $(selector).css("background-color", colors[curCol]);
                             curCol++;
                         }, time);
                 }
