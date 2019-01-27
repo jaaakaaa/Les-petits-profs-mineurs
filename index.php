@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<! on ne peut pas supprimer "glo-content","ov-box","splash",span class="opbtn","content" si on veut que le fond marche >
 
 <html>
         
