@@ -1,0 +1,155 @@
+<?php
+
+session_start();
+
+if ( isset( $_SESSION['id'] ) ) {
+    // Grab user data from the database using the user_id
+    // Let them access the "logged in only" pages
+} else {
+    // Redirect them to the login page
+    header("Location: http://www.mineurs.5gbfree.com/Les-petits-profs-mineurs/Utilisateur/log_in.php");
+}
+?>
+
+
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    
+    <link rel="stylesheet" type="text/css" href="profil.css">
+
+  </head>
+    
+    <body>
+
+  <?php 
+
+  $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
+  
+  require_once $dir;
+
+  ?>
+
+  <div id = 'main'>
+
+    <?php require_once "menu_profil.php" ?>
+
+    <div id = 'contenu' style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
+
+  <?php
+
+    $motdepasse = $c_mdp = $fail = $error = NULL;
+
+    require_once 'functions.php';
+
+    if (isset($_POST['motdepasse']))
+      $motdepasse = fix_string($_POST['motdepasse']);
+
+    if (isset($_POST['c_mdp']))
+      $c_mdp = fix_string($_POST['c_mdp']);
+
+    if (isset($_POST['envoyer']) && !empty($_POST['envoyer']))
+    {
+      $error = "Votre formulaire comporte les erreurs suivantes :";
+      $fail .= validate_password($motdepasse,$c_mdp);
+
+      if ($fail == "")
+      {
+        $jeton = salage($motdepasse);
+
+        $id = $_SESSION['id'];
+        $result = queryRequest("UPDATE connexion SET motdepasse='$jeton' WHERE id_utilisateur='$id'");
+
+        $_SESSION['motdepasse'] = $motdepasse;
+        echo "<script type='text/javascript'>document.location.replace('userspace.php');</script>";
+
+       }
+
+    }
+
+
+    $conn->close();
+
+
+echo <<<_END
+
+  <script src=functions.js></script>
+
+  <style>
+    input, textarea, select, option {
+    background-color:#FFFFFF;
+    }
+    input, textarea, select {
+    padding:3px;
+    border:1px solid #C9C9C9;
+    border-radius:10px;
+    box-shadow:1px 1px 1px #C9C9C9 inset;
+    }
+
+    input[type=radio] {
+    box-shadow:none;
+    width:15px;
+    height:15px; 
+    cursor:pointer;
+    }
+
+    input[type=submit] {
+    width:100px;
+    box-shadow:1px 1px 1px #C9C9C9;
+    cursor:pointer;
+    }
+
+    input[type=reset] {
+    width:100px;
+    box-shadow:1px 1px 1px #C9C9C9;
+    cursor:pointer;
+    }
+  </style>
+
+  <br>
+
+  <form action="profil_modif_mdp.php" method="post">
+  <table align = 'center'>
+  <tr><td align = 'center' colspan = 2><B> Changement de Mot de Passe</B></td></tr>
+  <tr><td colspan = 2>
+  $error
+  <p><font color=red size=1><i>$fail</i></font></p>
+  </td></tr>
+  <tr> <td colspan = 2>
+  <fieldset>
+  <legend> Choix du nouveau mot de passe </legend><br>
+  <table>
+        <tr>
+           <td>Mot de passe :</td>
+           <td> <input type="password" name="motdepasse" id="mdp1" placeholder="Votre mot de passe" maxlength="20" value=$motdepasse></td>
+           <td> </td>
+        </tr>
+        <tr>
+           <td>Confirmation Mot de passe :</td>
+           <td> <input type="password" name="c_mdp" id="mdp2" placeholder="Votre mot de passe" maxlength="20" onBlur=checkpass() value=$c_mdp></td>
+           <td><span id=alerte_mdp></span></td>
+        </tr>
+  </table>
+  </fieldset>
+  </td></tr>
+  <tr><td><br></td></tr>
+  <tr>
+    <td align = 'right'><input type="hidden" name="envoyer" value="yes">
+      <input type="submit" value="Envoyer"></td>
+    <td align = 'left'><input type="hidden" name="annuler" value="yes">
+      <input type="reset" value="Annuler"></td>
+  </tr>
+  </table>
+
+  </form>
+
+_END;
+
+?>
+
+  </div>
+  </div>
+</body>
+</html>
