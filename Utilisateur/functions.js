@@ -96,6 +96,101 @@ function checkml(mail)
 	request.send(params)
 }
 
+function graph(canvas_name, id)
+{
+
+        request = new ajaxRequest();
+
+        request.onreadystatechange = function()
+        {
+          if (this.readyState == 4)
+          {
+              if (this.status == 200)
+              {
+                var res = this.response;
+                console.log(this.response);
+
+                let Progress = document.getElementById(canvas_name).getContext('2d');
+
+                Chart.defaults.global.defaultFontFamily = 'Lato';
+                Chart.defaults.global.defaultFontSize = 18;
+                Chart.defaults.global.defaultFontColor = '#777';
+
+                let massPopChart = new Chart(Progress, {
+                  type:'bar', 
+                  
+                  data:{
+                    labels:['Matière', 'Optique', 'Energie', 'SVT', 'Espace', 'Maths'],
+                    datasets:[{
+                      label:'Progression',
+                      data:[
+                        res.Matiere,
+                        res.Optique,
+                        res.Energie,
+                        res.SVT,
+                        res.Espace,
+                        res.Maths
+                      ],
+                      backgroundColor:[
+                        'rgba(255, 99, 132, 0.6)',
+                        'rgba(54, 162, 235, 0.6)',
+                        'rgba(255, 206, 86, 0.6)',
+                        'rgba(75, 192, 192, 0.6)',
+                        'rgba(153, 102, 255, 0.6)',
+                        'rgba(255, 159, 64, 0.6)',
+                        'rgba(255, 99, 132, 0.6)'
+                      ],
+                      borderWidth:1,
+                      borderColor:'#777',
+                      hoverBorderWidth:3,
+                      hoverBorderColor:'#000'
+                    }]
+                  },
+                  options:{
+                    title:{
+                      display:true,
+                      text:'Ta progression sur le site !',
+                      fontSize:25
+                    },
+                    layout:{
+                      padding:{
+                        left:50,
+                        right:0,
+                        bottom:0,
+                        top:0
+                      }
+                    },
+                    tooltips:{
+                      enabled:true
+                    },
+                    scales: {
+                        yAxes: [{
+                                display: true,
+                                ticks: {
+                                    beginAtZero: true,
+                                    steps: 20,
+                                    stepValue: 10,
+                                    max: 100
+                                },
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Pourcentage'
+                                }
+                            }]
+                    }
+                    }
+                  });
+              }
+              else alert("Erreur Ajax :" + this.statusText);
+          }
+        };
+
+      param = 'id=' + id;
+      request.open("GET","recup_score.php?" + param,true);
+      request.responseType = "json";
+      request.send(null);
+}
+
 // Fonction de rêquetes Ajax3
 function ajaxRequest()
 {
@@ -108,4 +203,9 @@ function ajaxRequest()
 		        request = false;
 	}}}
 	return request;
+}
+
+function test(msg)
+{
+	console.log(msg);
 }

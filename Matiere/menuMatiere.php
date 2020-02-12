@@ -1,12 +1,18 @@
-<!DOCTYPE html> 
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-  </head>
-  
-  <body style="background: grey;">
+ 
+
+
+    <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    <body>
+
     
   <?php 
 
@@ -19,10 +25,10 @@
    <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; position:center; padding:5%; margin-top:10px;">
   
       <div id="matiere-menu">
-          <button onclick="location.href='partieun.html'">Les états de la matière</button>
-    <button onclick="location.href='partiedeux.html'">Changements d'état</button>
-          <button onclick="location.href='partietrois.html'">Mélanges de liquides</button>
-          <button onclick="location.href='partiequatre.html'">Précipitation et dissolution</button>
+           <button onclick="location.href='partieun.php'">Qu'est-ce que la matière ?</button>
+          <button onclick="location.href='partiedeux.php'">Les états de la matière</button>
+
+          
       </div>
      
       <div id="matiere-side">

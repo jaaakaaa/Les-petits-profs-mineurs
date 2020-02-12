@@ -17,14 +17,17 @@ if ($loggedin == FALSE)
 {
 echo <<<_END
 
-  	<div id="login-area">
-      <a href="/Les-petits-profs-mineurs/Utilisateur/log_in.php">Se connecter</a>  
-    </div>
-   
-    <div id="signin-area">
-      <a href="/Les-petits-profs-mineurs/Utilisateur/sign_in.php">S'inscrire</a>  
-    </div>
+  	
+      <a style="
+    float: right;
+" href="/Les-petits-profs-mineurs/Utilisateur/log_in.php">Se connecter</a>  
 
+   
+      <a style="
+    float: right;
+" href="/Les-petits-profs-mineurs/Utilisateur/sign_in.php">S'inscrire</a>  
+
+</div>
 _END;
 }
 else
@@ -33,13 +36,18 @@ else
 // Revoir l'affichage du profil 
 echo <<<_END
 
-  	<div id="login-area">
-      <a href="/Les-petits-profs-mineurs/Utilisateur/log_out.php">Se déconnecter</a>  
-    </div>
+ 
+      <a style="
+    float: right;
+"href="/Les-petits-profs-mineurs/Utilisateur/log_out.php">Se déconnecter</a>  
    
-    <div id="signin-area">
-      <a href="/Les-petits-profs-mineurs/Utilisateur/profil.php"> $pseudo </a>  
-    </div>
+   
+
+      <a style="
+    float: right;
+" href="/Les-petits-profs-mineurs/Utilisateur/userspace.php"> $pseudo </a>  
+  
+  </div>
 
 _END;
 }

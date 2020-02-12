@@ -1,24 +1,26 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title> Page de connexion </title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="/Les-petits-profs-mineurs/style.css">
-	<script type="application/javascript" src="/Les-petits-profs-mineurs/main.js">
-    </script>
-    <link rel="icon" href="/Les-petits-profs-mineurs/Images/mines_logo.ico">  
-</head>
-<body style="background: grey;">
+    
+  <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
 
- 	<?php 
+  <?php 
 
- 	$dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/indexsub_header.php";
- 	
- 	require_once $dir;
+  $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
+  
+  require_once $dir;
 
- 	?> 
-
-	<div id="content" style="top: auto ; background: white;">
+  ?>
+    
+    <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
 
 	<?php
 
@@ -47,7 +49,7 @@
 		    		$row = $result->fetch_array(MYSQLI_NUM);
 		        	$_SESSION['id'] = $row[0];
 		        	$_SESSION['pseudo'] = $row[1];
-		    		echo "<script type='text/javascript'>document.location.replace('profil.php');</script>";
+		    		echo "<script type='text/javascript'>document.location.replace('userspace.php');</script>";
 		    	}
 			}
 		}

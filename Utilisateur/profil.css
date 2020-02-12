@@ -1,0 +1,33 @@
+#main {
+margin:auto;
+position:relative;
+}
+#cssmenu {
+width:240px;
+position:absolute;
+vertical-align: middle;
+}
+
+#cssmenu ul,
+#cssmenu ul li{list-style: none; margin: 0; padding: 0;}
+
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {position: relative; z-index: 599; cursor: default;}
+
+#cssmenu {width: 200px; background: #46484b;}
+#cssmenu:before {content: ''; display: block;}
+
+#cssmenu:after{content: ''; display: table; clear: both;}
+#cssmenu a {display: block; padding: 15px 20px; text-decoration: none;
+text-transform: uppercase; border-bottom: 1px solid #46484b;}
+
+#cssmenu > ul {width: 200px;}
+#cssmenu > ul > li > a {border-left: 4px solid #ffffff; color: #ffffff;}
+
+#cssmenu > ul > li a:hover {background: #ffffff; color:#46484b;}
+
+
+#contenu {
+margin-left:250px;
+min-height:150px;
+}

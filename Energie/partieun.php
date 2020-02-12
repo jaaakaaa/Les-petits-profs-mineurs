@@ -1,13 +1,17 @@
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-    <!--- <script src="Message_bienvenue.js"></script> --> 
-  </head>
-  
-  <body style="background: grey;">
     
+  <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
+
   <?php 
 
   $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
@@ -15,7 +19,7 @@
   require_once $dir;
 
   ?>
-    
+
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
       
 
@@ -48,9 +52,9 @@
 	  	<br>
 	  	
 	  	<h2 style="color:rgb(185,5,5);"> Il est maintenant temps de jouer !	</h2>
-	  	<div id="moleculaire"> 
-	  		<a href="Energie_quizz.html"> <input type="button" value="Jouer !"> </a>
-	  	</div>
+	  	 <div id="quiz" align=center></div>
+  <script type="text/javascript" src="/Les-petits-profs-mineurs/js/QuizEnergie1.js"> </script>
+    <script> window.onload = Suivant() </script>
 
       
     </div>

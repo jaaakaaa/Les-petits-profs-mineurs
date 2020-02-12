@@ -1,0 +1,4 @@
+[26-Mar-2019 21:11:40 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/TEST/Stats/poll_comp_avis.php on line 15
+[26-Mar-2019 21:12:29 UTC] PHP Warning:  file(resultat_avis.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/TEST/Stats/poll_vote_avis.php on line 6
+[26-Mar-2019 21:12:31 UTC] PHP Warning:  file(resultat_comp.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/TEST/Stats/poll_comp_avis.php on line 6
+[26-Mar-2019 21:12:31 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/TEST/Stats/poll_comp_avis.php on line 15

@@ -1,19 +1,24 @@
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-  </head>
-  
-  <body style="background: grey;">
     
+  <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
+
   <?php 
 
   $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
   
   require_once $dir;
 
-  ?> 
+  ?>
     
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
       	
@@ -78,10 +83,10 @@
 		<br>
 	    </div>
 	    
-	<script type="text/javascript" src="test2.js"> </script>
-	<h4 id="test_status">Question 1 sur 3</h4>
-	<div id="test" align="center"><h5>Comment fait-on du blanc en synthèse additive ?</h5><input type="radio" name="choixs" value="A">On mélange les 3 couleurs primaires<br><input type="radio" name="choixs" value="B">On mélange Bleu et Vert<br><input type="radio" name="choixs" value="C">On mélange Rouge et Bleu<br><br><button onclick="checkAnswer()"> Valider la réponse </button></div>      
-
+	<div id="quiz" align=center></div>
+        <script type="text/javascript" src="/Les-petits-profs-mineurs/js/QuizLumiere2.js"></script>
+        <script> window.onload = Suivant() </script>
+        
     </div>
   </body>
 </html>

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Londrina+Solid:400,700');
 @import url('https://fonts.googleapis.com/css?family=Kalam:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Rubik One:400,700');
 
 body {
-  background-color: red;
-  font-family: "Kalam", sans-serif;
-  font-size: 18px;
+  background:'';
+  background-color: rgb(255, 137, 0);
+  font-family: "Londrina Solid", sans-serif;
   margin: 0;
   color: #444;
   transition: background-color 3s linear;
@@ -19,7 +19,7 @@ body div{
 
 h1 { /* Titre principal */
 	/* police et police de secours */
-	font-family: "Kalam",sans-serif;
+	font-family: "Londrina Solid",sans-serif;
 	text-align: center;
 	font-variant: small-caps; 
 	margin: auto;
@@ -29,7 +29,7 @@ h1 { /* Titre principal */
 }
 
 h2 { /* Titres secondaires */
-	font-family: "Kalam",sans-serif;
+	font-family: "Londrina Solid",sans-serif;
 	font-size: 40px;
 }
 
@@ -131,10 +131,9 @@ div#quizz {
   color:white;
   text-align:center;
   background:rgba(0,0,0,0.8);
-
-  border-radius:15px;
   box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
-  z-index:9999;
+  position : relative;
+  z-index:10;
 }
 
 #header a{
@@ -148,6 +147,7 @@ div#quizz {
   transition:border-top 0.3s ease,padding-top 0.3s ease,background 0.3s ease;
   cursor:pointer;
   background:transparent;
+  z-index: 999999;
 }
 
 #header a:hover{
@@ -200,8 +200,8 @@ div#quizz {
 .categorybox{
   display:inline-block;
   width:250px;
-  height:250px;
-  border-radius:5px 5px 0px 0px;
+  height:230px;
+  border-radius:10px;
   box-shadow: 2px 2px 25px rgba(0,0,0,0.2);
   background:#dbdbdb;
   border-bottom:6px solid #b2b2b2;
@@ -269,6 +269,20 @@ iframe{
   transition:height 0.7s ease;
 }
 
+#login-area {
+  background: white;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.6);
+  border-radius: 1000px;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  z-index: 99999;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  transition: bottom 0.7s ease,background 0.5s ease,box-shadow 0.7s ease;
+}
+
 #login-area:hover{
   background:#bbb;
   box-shadow:2px 5px 25px rgba(0,0,0,0.6);
@@ -315,19 +329,19 @@ iframe{
   background:transparent;
 }
 
-#optique-side,#matiere-side,#svt-side,#energie-side,#astronomie-side,#experience-side{
+#optique-side,#matiere-side,#svt-side,#energie-side,#astronomie-side,#experience-side,#maths-side{
   width:auto;
   margin-top:0px;
 }
 
 
 
-#optique-menu,#matiere-menu,#svt-menu,#energie-menu,#astronomie-menu,#experience-menu{
+#optique-menu,#matiere-menu,#svt-menu,#energie-menu,#astronomie-menu,#experience-menu,#maths-menu{
   float: right;
 }
 
 
-#optique-menu button,#matiere-menu button,#svt-menu button,#energie-menu button,#astronomie-menu button,#experience-menu button{
+#optique-menu button,#matiere-menu button,#svt-menu button,#energie-menu button,#astronomie-menu button,#experience-menu button,#maths-menu button{
   color:white;
   transition:all 0.5s ease;
   width:300px;
@@ -338,30 +352,35 @@ iframe{
   position:relative;
   bottom:0px;
   box-shadow:0px 0px 0px transparent;
-  font-family: kalam;
-  font-size: 20
+  font-family: Londrina Solid;
+  font-size: 20px;
 }
 
+#maths-menu button{
+  background:#050980;
+  display : block;
+  border-radius: 15px;
+}
 #optique-menu button{
-  background:crimson;
+  background:#d8d810;
   display : block;
   border-radius: 15px;
 }
 
 #matiere-menu button{
-  background:#dc14b6;
+  background:#8e3e00;
   display : block;
   border-radius: 15px;
 }
 
 #svt-menu button{
-  background:#5a9cac;
+  background:#018e11;
   display : block;
   border-radius: 15px;
 }
 
 #energie-menu button{
-  background:#d8d810;
+  background:crimson;
   display : block;
   border-radius: 15px;
 }
@@ -379,7 +398,7 @@ iframe{
 }
 
 
-#optique-menu button:hover,#matiere-menu button:hover,#svt-menu button:hover,#energie-menu button:hover,#astronomie-menu button:hover,#experience-menu button:hover{
+#optique-menu button:hover,#matiere-menu button:hover,#svt-menu button:hover,#energie-menu button:hover,#astronomie-menu button:hover,#experience-menu button:hover,#maths-menu button:hover{
   bottom:2px;
   box-shadow:2px 2px 10px rgba(0, 0, 0, 0.55);
 }
@@ -477,11 +496,26 @@ nav > ul > li:hover a{
   border-top: 5px solid #09a0b4;
   background-color: rgb(1, 41, 39);
 }
+.menu-maths:hover{
+  border-top: 5px solid #020440;
+  background-color: rgb(1, 41, 39);
+}
 
-.submenu li:hover a{
+
+.submenu :hover a{
   color:#EEE;
   font-weight: bold;
 }
+
+.menu-maths .submenu :hover a{
+  font-weight: normal;
+}
+
+.menu-maths .submenu li ul li:hover a{
+  font-weight: bold;
+}
+
+
 .menu-matiere .submenu{
   background-color: #b46b2d;
 }
@@ -506,6 +540,10 @@ nav > ul > li:hover a{
   background-color:#09a0b4
 }
 
+.menu-maths .submenu{
+  background-color:#050980
+}
+
 
 .spoiler {
 	display:none;
@@ -514,3 +552,61 @@ nav > ul > li:hover a{
 	display:block;
 }
 
+.button::before, .button::after {
+  position: absolute;
+  content: '';
+  transition: all .2s;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 40px;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  vertical-align: middle;
+  font-family: 'Rubik One', sans-serif;
+  text-decoration: none;
+  font-size: 4vw;
+  transition: all .2s;
+  background-color: #073655;
+}
+.button::before {
+  bottom: -15px;
+  height: 15px;
+  width: 100%;
+  left: 8px;
+  -webkit-transform: skewX(45deg);
+          transform: skewX(45deg);
+  background-color: #0d334d;
+}
+.button::after {
+  right: -15px;
+  height: 100%;
+  width: 15px;
+  bottom: -8px;
+  -webkit-transform: skewY(45deg);
+          transform: skewY(45deg);
+  background-color: #0b293e;
+}
+.button:active {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.button:active::before {
+  bottom: -5px;
+  height: 5px;
+  left: 3px;
+}
+.button:active::after {
+  right: -5px;
+  width: 5px;
+  bottom: -3px;
+}
+
+#quiz {
+    font-size:30px;
+}

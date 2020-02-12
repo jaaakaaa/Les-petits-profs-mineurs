@@ -1,13 +1,31 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="application/javascript" src="main2.js"></script>
-    <script src="userman.js"></script>
-    <meta charset="utf-8">
-  </head>
-  <body>
+        <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700,900" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="application/javascript" src="/Les-petits-profs-mineurs/main2.js"></script>
+        <title>Les Prof Mineurs</title>
+        <link rel="icon" href="/Les-petits-profs-mineurs/Images/mines_logo.ico">
+        <meta charset="utf-8">
+    </head>
+        
+        
+        
+    <body>
+        
+          <?php 
+
+  $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
+  
+  require_once $dir;
+
+  ?>
 
     <?php require_once 'indexsub_header.php'; ?>
 

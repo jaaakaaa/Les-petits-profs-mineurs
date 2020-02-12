@@ -1,0 +1,417 @@
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:38:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:41:46 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:41:47 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 19
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 17:41:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:45:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:45:20 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 17:45:21 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 17:45:22 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:46:58 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  Use of undefined constant Stats - assumed 'Stats' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:47:00 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function String() in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  Use of undefined constant Stats - assumed 'Stats' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:49:56 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  Use of undefined constant Stats - assumed 'Stats' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:39 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  Use of undefined constant Stats - assumed 'Stats' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:51:55 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  Use of undefined constant Stats - assumed 'Stats' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:52:18 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  fopen(&quot;/Les-petits-profs-mineurs/Stats/&quot;+$section+&quot;/&quot;+$filename): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 17:52:56 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:55:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 19
+[28-Mar-2019 17:55:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 17:55:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:55:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:55:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:55:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:55:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  file(0): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 17:57:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 19
+[28-Mar-2019 17:57:43 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:02:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:02:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:02:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:02:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:02:58 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:04:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:04:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:04:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:04:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:04:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:04:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:04:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:04:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:06:48 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:06:48 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:06:48 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:06:48 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:06:48 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:06:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:06:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:06:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:06:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:06:49 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:08:16 UTC] PHP Warning:  file(resultat_avis.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:08:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:10:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:13:01 UTC] PHP Warning:  file(/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:13:01 UTC] PHP Warning:  fopen(/resultat_avis_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:13:01 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:13:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 18:13:02 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 6
+[28-Mar-2019 18:14:13 UTC] PHP Warning:  file(/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:14:13 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 18:14:13 UTC] PHP Warning:  fopen(/resultat_avis_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:14:13 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:14:13 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 18:14:14 UTC] PHP Warning:  file(/resultat_comp_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:14:14 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 18:14:14 UTC] PHP Warning:  fopen(/resultat_comp_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:14:14 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 18:14:14 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 18:16:01 UTC] PHP Warning:  file(/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:16:01 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Mar-2019 18:16:01 UTC] PHP Warning:  fopen(/resultat_avis_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:16:01 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:16:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 18:16:02 UTC] PHP Warning:  file(/resultat_comp_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Mar-2019 18:16:02 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[28-Mar-2019 18:16:02 UTC] PHP Warning:  fopen(/resultat_comp_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 28
+[28-Mar-2019 18:16:02 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 29
+[28-Mar-2019 18:16:02 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 30
+[28-Mar-2019 18:17:06 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:19:20 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:19:50 UTC] PHP Warning:  file(/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:19:50 UTC] PHP Warning:  fopen(/resultat_avis_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:19:50 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:19:50 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 18:20:50 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 6
+[28-Mar-2019 18:21:34 UTC] PHP Warning:  file(/Stats//resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:21:34 UTC] PHP Warning:  fopen(/Stats//resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:21:34 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:21:34 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[28-Mar-2019 18:23:00 UTC] PHP Warning:  file(/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Mar-2019 18:23:00 UTC] PHP Warning:  fopen(/resultat_avis_partieun.txt): failed to open stream: Permission denied in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Mar-2019 18:23:00 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Mar-2019 18:23:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[30-Mar-2019 20:27:46 UTC] PHP Warning:  file(Matiere/resultat_avis_partiedeux.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[30-Mar-2019 20:42:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[30-Mar-2019 21:01:00 UTC] PHP Warning:  file(Matiere/resultat_comp_partiedeux.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[30-Mar-2019 21:04:10 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 19
+[30-Mar-2019 21:04:20 UTC] PHP Warning:  file(SVT/resultat_comp_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[30-Mar-2019 21:04:21 UTC] PHP Warning:  file(SVT/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[30-Mar-2019 21:05:16 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[30-Mar-2019 21:40:24 UTC] PHP Warning:  file(Lumiere/resultat_comp_partiedeux.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[30-Mar-2019 21:40:24 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 16
+[30-Mar-2019 21:40:27 UTC] PHP Warning:  file(Lumiere/resultat_avis_partiedeux.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[30-Mar-2019 21:40:27 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 16
+[28-Apr-2019 11:04:17 UTC] PHP Warning:  file(Maths/resultat_comp_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_comp.php on line 7
+[28-Apr-2019 11:04:20 UTC] PHP Warning:  file(Maths/resultat_avis_partieun.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Apr-2019 16:51:59 UTC] PHP Warning:  file(2/resultat_avis_part.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 7
+[28-Apr-2019 16:51:59 UTC] PHP Warning:  fopen(2/resultat_avis_part.txt): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 27
+[28-Apr-2019 16:51:59 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 28
+[28-Apr-2019 16:51:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 29
+[30-Apr-2019 17:18:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:18:19 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:18:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:18:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:18:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:18:31 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 17:20:11 UTC] PHP Warning:  require_once(Utilisateur/login.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:20:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'Utilisateur/login.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:22:00 UTC] PHP Warning:  require_once(/Utilisateur/login.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:22:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/Utilisateur/login.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:23:54 UTC] PHP Warning:  Use of undefined constant mineur_statistique - assumed 'mineur_statistique' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 9
+[30-Apr-2019 17:23:54 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'mineurs_admin'@'209.90.88.135' to database 'mineur_statistique' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 9
+[30-Apr-2019 17:24:29 UTC] PHP Warning:  Use of undefined constant mineurs_statistique - assumed 'mineurs_statistique' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 9
+[30-Apr-2019 17:24:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function queryRequest() in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 14
+[30-Apr-2019 17:26:47 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 11
+[30-Apr-2019 17:27:08 UTC] PHP Warning:  require_once(/Les-petits-profs-mineurs/Utilisateur/login.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:27:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/Les-petits-profs-mineurs/Utilisateur/login.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 8
+[30-Apr-2019 17:28:24 UTC] PHP Warning:  Use of undefined constant mineurs_statistique - assumed 'mineurs_statistique' (this will throw an Error in a future version of PHP) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 11
+[30-Apr-2019 17:29:26 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 20
+[30-Apr-2019 17:29:59 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 38
+[30-Apr-2019 17:29:59 UTC] PHP Warning:  fopen(Maths/): failed to open stream: Is a directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 49
+[30-Apr-2019 17:29:59 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 50
+[30-Apr-2019 17:29:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 51
+[30-Apr-2019 17:31:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 38
+[30-Apr-2019 17:31:00 UTC] PHP Warning:  fopen(Maths/): failed to open stream: Is a directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 49
+[30-Apr-2019 17:31:00 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 50
+[30-Apr-2019 17:31:00 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 51
+[30-Apr-2019 17:31:57 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 20
+[30-Apr-2019 17:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::fetch_string() in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 17
+[30-Apr-2019 17:33:15 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 38
+[30-Apr-2019 17:33:15 UTC] PHP Warning:  fopen(Maths/): failed to open stream: Is a directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 49
+[30-Apr-2019 17:33:15 UTC] PHP Warning:  fputs() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 50
+[30-Apr-2019 17:33:15 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 51
+[30-Apr-2019 17:35:30 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 31
+[30-Apr-2019 17:42:53 UTC] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 25
+[30-Apr-2019 17:45:28 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 25
+[30-Apr-2019 17:52:47 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:53:17 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:53:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function String() in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 26
+[30-Apr-2019 17:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function String() in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 26
+[30-Apr-2019 17:56:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:57:40 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:58:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:58:27 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:58:41 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:58:53 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:59:08 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:59:11 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 17:59:20 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:02:57 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:03:50 UTC] PHP Parse error:  syntax error, unexpected ';', expecting '=' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 18
+[30-Apr-2019 18:05:18 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:06:01 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:06:23 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:06:33 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:07:45 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:08:03 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:08:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:08:34 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:08:54 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[30-Apr-2019 18:09:19 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/poll_avis.php on line 39
+[01-May-2019 00:55:15 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:55:15 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:55:59 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:55:59 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:56:05 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:56:05 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:56:58 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:56:58 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:58:11 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:58:11 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:58:55 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:58:55 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 00:59:34 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 00:59:34 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:00:02 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:00:02 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:00:40 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:00:40 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:00:53 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:00:53 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:01:04 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:01:04 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:01:04 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 37
+[01-May-2019 01:02:07 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:02:07 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:02:07 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 37
+[01-May-2019 01:02:20 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:02:20 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:06:36 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:06:36 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:06:36 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 37
+[01-May-2019 01:06:51 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:06:51 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:06:51 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 37
+[01-May-2019 01:07:04 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:07:04 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:07:06 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 34
+[01-May-2019 01:07:06 UTC] PHP Warning:  Division by zero in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 35
+[01-May-2019 01:41:00 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 45
+[01-May-2019 01:41:06 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 45
+[01-May-2019 01:41:34 UTC] PHP Warning:  A non-numeric value encountered in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 45
+[04-May-2019 11:15:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 11:15:47 UTC] PHP Warning:  require_once(menu_profil.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:15:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'menu_profil.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:16:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 11:16:19 UTC] PHP Warning:  require_once(menu_profil.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:16:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'menu_profil.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:16:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 11:16:58 UTC] PHP Warning:  require_once(menu_profil.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:16:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'menu_profil.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:17:26 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 11:17:26 UTC] PHP Warning:  require_once(menu_profil.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:17:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'menu_profil.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/commentaires.php on line 23
+[04-May-2019 11:18:00 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 11:18:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/mineurs/public_html/Les-petits-profs-mineurs/Utilisateur/header.php on line 3
+[04-May-2019 14:16:15 UTC] PHP Warning:  require_once(functions.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 4
+[04-May-2019 14:16:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'functions.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 4
+[04-May-2019 14:18:33 UTC] PHP Warning:  require_once(functions.php): failed to open stream: No such file or directory in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 4
+[04-May-2019 14:18:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'functions.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 4
+[04-May-2019 14:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 9
+[04-May-2019 14:25:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 58
+[04-May-2019 14:25:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/mineurs/public_html/Les-petits-profs-mineurs/Stats/barre.php on line 58

@@ -1,24 +1,26 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
+
 <html>
-<head>
-	<title> Page inscription </title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="/Les-petits-profs-mineurs/style.css">
-	<script type="application/javascript" src="/Les-petits-profs-mineurs/main.js">
-    </script>
-    <link rel="icon" href="/Les-petits-profs-mineurs/Images/mines_logo.ico"> 
-</head>
-<body style="background: grey;">
-	
- 	<?php
+        <head>
+     <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+        </head>
+        
+    <body>
+    
+    <?php 
 
- 	$dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/indexsub_header.php";
- 	
- 	require_once $dir;
+  $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
+  
+  require_once $dir;
 
- 	?>
-
-    <div id="content" style="top: auto ; background: white;">
+  ?>
+    
+    <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
 
 	<?php
 
@@ -61,28 +63,40 @@
 			$fail .= validate_mail($mail);
 			$fail .= validate_password($motdepasse,$c_mdp);
 
+			if (isset($_POST['auth']))	
+				$auth = TRUE;
+			else $auth = FALSE;
+
 			if ($fail == "")
 			{
-				$age = age($anniversaire);
-				$date_insc = date('o-m-d');
-				$jeton = salage($motdepasse);
+			 	$age = age($anniversaire);
+			 	$date_insc = date('o-m-d');
+			 	$jeton = salage($motdepasse);
 
-				$result = queryRequest("LOCK TABLES users.connexion WRITE");
+			 	$result = queryRequest("LOCK TABLES users.connexion WRITE");
 
-				$result = queryRequest("INSERT INTO connexion VALUES (0,'$pseudo','$jeton','$mail')");
+			 	$result = queryRequest("INSERT INTO connexion VALUES (0,'$pseudo','$jeton','$mail','$auth')");
 
-				$insertID = $conn->insert_id;
+			 	$insertID = $conn->insert_id;
 
-				$result = queryRequest("UNLOCK TABLES");
+			 	$result = queryRequest("UNLOCK TABLES");
 
-				$result = queryRequest("INSERT INTO personnel VALUES ($insertID,'$nom','$prenom','$age','$scolaire','$anniversaire','$date_insc')");
+			 	$result = queryRequest("INSERT INTO personnel VALUES ($insertID,'$nom','$prenom','$age','$scolaire','$anniversaire','$date_insc')");
+			
+			 	$result = queryRequest("INSERT INTO relation VALUES ($insertID,'argonaute',0)");
 
-			    $_SESSION['id'] = $insertID;
-			    $_SESSION['pseudo'] = $pseudo;
-		    	$_SESSION['motdepasse'] = $motdepasse;
-		    	echo "<script type='text/javascript'>document.location.replace('profil.php');</script>";
+			 	$quizz = array('quizzMatiere','quizzOptique','quizzEnergie','quizzSVT','quizzEspace','quizzMaths');
 
-			}
+			 	for ($j = 0; $j < count($quizz); ++$j)
+			 	{
+			 		$result = queryRequest("INSERT INTO $quizz[$j] VALUES ($insertID,0,0,0,0,0)");
+			 	}
+
+			 		    $_SESSION['id'] = $insertID;
+			 		    $_SESSION['pseudo'] = $pseudo;
+			 	    	echo "<script type='text/javascript'>document.location.replace('profil.php');</script>";
+
+			 }
 
 		}
 
@@ -175,7 +189,7 @@ echo <<<_END
 	</fieldset>
 
 	<fieldset>
-	<legend> Informations Personnelles </legend><br>
+	<legend> Informations de Compte </legend><br>
 	<table>
      	<tr>
            <td>Pseudo :</td>
@@ -196,6 +210,11 @@ echo <<<_END
            <td>Confirmation Mot de passe :</td>
            <td>	<input type="password" name="c_mdp" id="mdp2" placeholder="Votre mot de passe" maxlength="20" onBlur=checkpass() value=$c_mdp></td>
            <td><span id=alerte_mdp></span></td>
+        </tr>
+        <tr></tr>
+        <tr>
+        	<td colspan = 2><input type="checkbox" id="auth" name="auth" value = TRUE checked>
+  			<label for="auth">J'autorise le traitement de mes données personnelles</label></td>
        	</tr>
 	</table>
 	</fieldset>
@@ -208,6 +227,7 @@ echo <<<_END
 			<input type="reset" value="Annuler"></td>
 	</tr>
 	</table>
+
 	</form>
 
 _END;

@@ -1,12 +1,17 @@
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-  </head>
-  
-  <body style="background: grey;">
     
+  <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
+
   <?php 
 
   $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
@@ -18,7 +23,7 @@
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
     
     <div id="corpus">
-		<h1> A la découverte des roches </h1>
+		<h1 style="color:rgb(5, 163, 35);"> A la découverte des roches </h1>
 
 		<div id="intro">
 			<p> Te voilà sur une planète tout à fait à part! Regarde ci-dessous pour découvrir différentes roches qui composent notre Terre. </p>
@@ -35,7 +40,7 @@
 			
 		</audio>   -->
 
-		<h2> Le quartz </h2>
+		<h2 style="color:rgb(5, 163, 35);"> Le quartz </h2>
 
 		<div align="center"> 	
 			<img src="Pictures/Quartz.jpg" alt="Quartz" width="300" height="200">
@@ -51,7 +56,7 @@
 	    </div>
 	  	<br>
 
-	  	<h2> La fluorine </h2>
+	  	<h2 style="color:rgb(5, 163, 35);"> La fluorine </h2>
 
 	  	<div align="center"> 	
 			<img src="Pictures/Fluorine.jpg" alt="Fluorine" width="200" height="300">
@@ -65,7 +70,7 @@
 	    </div>
 	  	<br>
 
-	  	<h2> La veine de minerais </h2>
+	  	<h2 style="color:rgb(5, 163, 35);"> La veine de minerais </h2>
 
 	  	<div align="center"> 	
 			<img src="Pictures/veine.jpg" alt="veine" width="200" height="300">
@@ -77,7 +82,7 @@
 	    </div>
 	    <br>
 
-	    <h2> L'or des fous </h2>
+	    <h2 style="color:rgb(5, 163, 35);"> L'or des fous </h2>
 
 	  	<div align="center"> 	
 			<img src="Pictures/or_des_fous.jpg" alt="or" width="200" height="200">
@@ -90,7 +95,7 @@
 	    </div>
 	    <br>
 
-	    <h2> La bombe volcanique </h2>
+	    <h2 style="color:rgb(5, 163, 35);"> La bombe volcanique </h2>
 
 	  	<div align="center"> 	
 			<img src="Pictures/bombe volcanique.jpg" alt="bombe" width="350" height="200">
@@ -104,7 +109,7 @@
 	    </div>
 	    <br>
 
-	    <h2> L'empreinte de fougère </h2>
+	    <h2 style="color:rgb(5, 163, 35);"> L'empreinte de fougère </h2>
 
 	  	<div align="center"> 	
 			<img src="Pictures/empreinte de fougère.jpg" alt="empreinte" width="600" height="400">

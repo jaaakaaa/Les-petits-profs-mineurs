@@ -1,12 +1,16 @@
+<?php
+// Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
+    
   <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-  </head>
-  
-  <body style="background: grey;">
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
 
   <?php 
 
@@ -15,19 +19,17 @@
   require_once $dir;
 
   ?>
-
     
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; position:center; padding:5%; margin-top:10px;">
   
       <div id="astronomie-menu">
-          <button onclick="location.href='partieun.html'">Voyager dans l'Univers</button>
-    <button onclick="location.href='partiedeux.html'">Le Système Solaire</button>
-          <button onclick="location.href='partietrois.html'">La vitesse de la lumière</button>
-          <button onclick="location.href='partiequatre.html'">Questions pour un astronaute</button>
+          <button onclick="location.href='partieun.php'">Voyager dans l'Univers</button>
+    <button onclick="location.href='partiedeux.php'">Le Système Solaire</button>
+          <button onclick="location.href='partietrois.php'">La vitesse de la lumière</button>
       </div>
      
       <div id="astronomie-side">
-        <h1 style="color:black; margin-block-start: 0px;"> À la Découverte de l'Univers  </h1>
+        <h1  style="color:rgb(95, 120, 170)"> À la Découverte de l'Univers  </h1>
 
   <!--  va chercher et execute le fichier app.js -->
   <!-- <script type="text/javascript" src='js/app.js'> </script> -->

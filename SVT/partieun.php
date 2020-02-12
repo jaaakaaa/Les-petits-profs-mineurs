@@ -1,12 +1,17 @@
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="/Les-petits-profs-mineurs/style.css">
-    <script type="application/javascript" src="/Les-petits-profs-mineurs/main.js"></script>
-    <meta charset="utf-8">
-  </head>
-  
-  <body style="background: grey;">
     
+  <head>
+             <?php require_once $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/head.php"; ?>
+    </head>
+    
+    <body>
+
   <?php 
 
   $dir = $_SERVER['DOCUMENT_ROOT']."/Les-petits-profs-mineurs/sub_header.php";
@@ -14,24 +19,13 @@
   require_once $dir;
 
   ?>
-    
     <div style=" background : white; ;border-radius: 10px; overflow-wrap: break-word; padding:5%;">
    
 
-<div style="display:none">
-            <span id="title">
-                Projet scientifique
-            </span>
-            <span id="logo">
-                <a onclick="openInNewTab('http://mines-nancy.univ-lorraine.fr/')" style="cursor:pointer">
-                    <img src="logo.png" height="70">
-                </a>
-            </span>
-        </div>
+
   <h1 style="color:rgb(5, 163, 35)" >  La biodiversité</h1>
 
-<div id="texte">
-  <p>  Observez cette image ! </p> </div>
+
   <br>
   <div align="center">  
   <img src="Pictures\biodiversity.jpg" width="400" height="400" align="center">
